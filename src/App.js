@@ -8,9 +8,9 @@ function App({ name }) {
       <div>
         <h2>Hello World!</h2>
         <h2>Hello from {name}</h2>
-        <h2>
+        <p>
           <strong>{name}</strong>
-        </h2>
+        </p>
       </div>
       <div>
         <h3>Some Fruits:</h3>
