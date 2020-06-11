@@ -1,5 +1,5 @@
 body {
-  background-color: darkkhaki;
+  background-color: moccasin;
 }
 .myContainer {
   width: 50%;
@@ -11,4 +11,29 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.myContainer2 {
+  border: 4px dotted chocolate;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: khaki;
+}
+.myContainer2 img {
+  width: 500px;
+  height: 280px;
+}
+.doorDiv {
+  display: flex;
+}
+.doorDiv img {
+  /* display: flex; */
+  width: 250px;
+  height: 500px;
+  color: khaki;
 }
